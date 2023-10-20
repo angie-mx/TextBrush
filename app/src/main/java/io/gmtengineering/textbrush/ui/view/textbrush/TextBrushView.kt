@@ -5,6 +5,7 @@ import android.content.Context
 import android.graphics.Canvas
 import android.graphics.Color
 import android.graphics.Paint
+import android.graphics.Typeface
 import android.view.MotionEvent
 import android.view.View
 
@@ -27,6 +28,7 @@ internal class TextBrushView(
     init {
         paint.color = Color.YELLOW
         paint.textSize = 80F
+        paint.typeface = Typeface.DEFAULT_BOLD
         invalidate()
     }
 

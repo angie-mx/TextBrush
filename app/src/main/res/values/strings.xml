@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TextBrush</string>
+    <string name="app_name">Text Brush</string>
     <string name="clear">Clear</string>
     <string name="undo">Undo</string>
 </resources>

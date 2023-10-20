@@ -23,7 +23,7 @@ captures/
 
 # IntelliJ
 *.iml
-.idea/*
+.idea/
 !.idea/codeStyles
 !.idea/encodings.xml
 !.idea/inspectionProfiles

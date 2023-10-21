@@ -13,12 +13,14 @@ internal class Segment {
 
     fun draw(canvas: Canvas, paint: Paint) {
         for (character in characters) {
+            canvas.rotate(character.rotation, character.position.x, character.position.y)
             canvas.drawText(
                 character.symbol.toString(),
                 character.position.x,
                 character.position.y,
                 paint
             )
+            canvas.rotate(-character.rotation, character.position.x, character.position.y)
         }
     }
 }
